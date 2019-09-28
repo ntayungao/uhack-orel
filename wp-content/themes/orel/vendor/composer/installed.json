@@ -1,0 +1,37 @@
+[
+    {
+        "name": "pam/carrion",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/japarado/carrion.git",
+            "reference": "482b13a86c57a397d02020fb071ea952f5d72fd1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/japarado/carrion/zipball/482b13a86c57a397d02020fb071ea952f5d72fd1",
+            "reference": "482b13a86c57a397d02020fb071ea952f5d72fd1",
+            "shasum": ""
+        },
+        "time": "2019-09-04T10:26:22+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Carrion\\": "app/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Justin Parado",
+                "email": "justin.parado@dice205.com"
+            }
+        ],
+        "description": "A namespaced collection of common WordPress components"
+    }
+]

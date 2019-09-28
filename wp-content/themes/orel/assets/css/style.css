@@ -1,0 +1,121 @@
+/* Primary color */
+/* Background Primary color */
+
+body .top-header, 
+body .icon-block-outer:hover, 
+body .icon-block-outer:focus, 
+body .icon-block-outer:active, 
+body #go-top span:hover, 
+body #go-top span:focus, 
+body #go-top span:active, 
+body .page-numbers.current, 
+body .sub-title:before, 
+body .searchform .search-button {
+	background-color: #30344d;
+}
+
+/* Primary border color */
+
+body .top-header, 
+body .block-portfolio.block-grid 
+.post-content:hover .post-content-inner, 
+body .block-portfolio.block-grid 
+.post-content:focus .post-content-inner,
+ body .block-portfolio.block-grid 
+ .post-content:active .post-content-inner, 
+ body #go-top span:hover, body #go-top span:focus, 
+ body #go-top span:active, body 
+ .main-navigation ul ul, 
+ body .page-numbers.current, 
+ body .searchform .search-button {
+	border-color: #30344d;
+}
+
+/* Primary text color */
+
+body .icon-block-outer .icon-outer span, 
+body .icon-block-outer .icon-content-area 
+.button-container .button-text, 
+body .icon-block-outer .icon-content-area 
+.button-container .button-text:before, 
+body .block-testimonial .slide-item 
+article.post-content .post-content-inner 
+.post-title cite span  {
+	color: #30344d;
+}
+
+body .block-top-footer, body .site-footer {
+    background-color: #22253a;
+}
+
+body .block-top-footer strong {
+    color: #b9b9b9;
+}
+/* ----------------------------------------------- */
+
+/* Secondary color */
+/* Secondary background color */
+
+body .button-primary, 
+body .block-contact 
+.contact-form-section input[type="submit"], 
+body .block-contact .kt-contact-form-area 
+.form-group input.form-control[type="submit"], 
+body .wrap-detail-page .contact-form-section 
+input[type="submit"], body .wrap-detail-page 
+.kt-contact-form-area .form-group 
+input.form-control[type="submit"], 
+body .block-grid .post-content .post-content-inner 
+span.cat a, body .block-grid .post-content 
+.post-content-inner .button-container 
+.post-footer-detail 
+.post-format-outer > span a, 
+body .block-grid .post-content 
+.post-content-inner .button-container 
+.post-footer-detail 
+.post-format-outer > span span, 
+body .comments-area .comment-respond 
+.comment-form .submit {
+	background-color: #038875;
+}
+
+/* Secondary border color */
+
+body .button-primary, 
+body .block-contact .contact-form-section 
+input[type="submit"], 
+body .wrap-detail-page .contact-form-section 
+input[type="submit"], 
+body .wrap-detail-page .kt-contact-form-area 
+.form-group input.form-control[type="submit"], 
+body .block-contact .kt-contact-form-area 
+.form-group input.form-control[type="submit"], 
+body .comments-area .comment-respond .comment-form 
+.submit, body .block-contact .kt-contact-form-area 
+.form-group input.form-control:focus, 
+body .block-contact .kt-contact-form-area 
+.form-group input.form-control:active, 
+body .block-contact .kt-contact-form-area 
+.form-group textarea.form-control:focus, 
+body .block-contact .kt-contact-form-area 
+.form-group textarea.form-control:active, 
+body .wrap-detail-page .kt-contact-form-area 
+.form-group input.form-control:focus, 
+body .wrap-detail-page .kt-contact-form-area 
+.form-group input.form-control:active, 
+body .wrap-detail-page .kt-contact-form-area 
+.form-group textarea.form-control:focus, 
+body .wrap-detail-page .kt-contact-form-area 
+.form-group textarea.form-control:active {
+	border-color: #038875;
+}
+
+/* ----------------------------------------------- */
+
+/* Alternate color */
+/* Alternate border color */
+
+body .block-portfolio.block-grid .post-content 
+.post-content-inner {
+	border-color: #038875;
+}

@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5fee524f4dd83597d34d73e0286437e5",
+    "packages": [
+        {
+            "name": "niles/carrion",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/japarado/carrion.git",
+                "reference": "482b13a86c57a397d02020fb071ea952f5d72fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/japarado/carrion/zipball/482b13a86c57a397d02020fb071ea952f5d72fd1",
+                "reference": "482b13a86c57a397d02020fb071ea952f5d72fd1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Carrion\\": "app/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niles Kim Ayungao",
+                    "email": "nileskim.ayungao@gmail.com"
+                }
+            ],
+            "description": "A namespaced collection of common WordPress components",
+            "time": "2019-09-04T10:26:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pam/carrion": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+/* ------------- Header Section ----------------*/
+
+.site-header{}
+
+.banner-section{
+    height: 525px;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.header-cover-img{
+    height: 525px;
+    width: 100%;
+    padding-top: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-text{
+    color: #fff;
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 3rem;
+    text-shadow: 0 2px 3px black;
+    font-family: 'Avenir Std Black', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-paragraph{
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+    text-shadow: 0 2px 3px black;
+    font-family: 'Avenir Std Book', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-button{
+    background-color: #038875;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'Avenir Std Roman', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* -----------------Home Page ------------------*/
+
+.featured-section{
+    width: 100%;
+    height: 835px;
+}
+
+.carousel-background{
+    width: 100%;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 1274px) and (max-width: 1300px) {
+    .carousel-background{
+    }
+}

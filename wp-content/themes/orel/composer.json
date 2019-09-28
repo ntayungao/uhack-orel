@@ -1,0 +1,25 @@
+{
+    "name": "niles/orel",
+    "description": "A WordPress theme",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niles Kim Ayungao",
+                    "email": "nileskim.ayungao@gmail.com"
+        }
+    ],
+    "require": {
+        "pam/carrion": "dev-master"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "JNR\\": "app/"
+        }
+    }
+}
