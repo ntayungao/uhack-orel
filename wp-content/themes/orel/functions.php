@@ -30,9 +30,3 @@ function enqueue_theme_scripts()
     wp_enqueue_script('orel_topup_button', get_theme_file_uri('assets/js/top-up.js'), [], false, true);
 
 }
-
-// Navigation Menu
-function wpb_custom_new_menu() {
-    register_nav_menu('main-menu',__( 'Main Menu' ));
-  }
-  add_action( 'init', 'wpb_custom_new_menu' );
