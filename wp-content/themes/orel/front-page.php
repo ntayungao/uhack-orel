@@ -20,7 +20,7 @@ get_header();
 <div class="featured-section">
     <div id="mainSlider" class="carousel slide" date-ride="carousel">
         <div class="home-featured-controllers">
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators carousel-indicators-0">
                 <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
                 <li data-target="#mainSlider" data-slide-to="1"></li>
                 <li data-target="#mainSlider" data-slide-to="2"></li>
@@ -51,6 +51,19 @@ get_header();
         <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
             <i class="fa fa-angle-right fa-5x control-fa-angle-1"></i>
         </a>
+    </div>
+</div>
+
+<div class="home-contact-section">
+    <h2 class="my-3 home-contact-header">Contact Us</h2>
+    <div class="home-contact-forms">
+        <div class="alert alert-success d-none" role="alert" id="contactFormSuccessAlert">
+            Thank you for your inquiry! We'll get back to you soon
+        </div>
+        <form action="<?php echo admin_url('admin-post.php'); ?>" class="needs-validation home-contact-section-form" method="post" action="#" novalidate
+        id="contactForm">
+            <input type="hidden" name="action" value="contact_form_submit"/>
+        </form>
     </div>
 </div>
 
