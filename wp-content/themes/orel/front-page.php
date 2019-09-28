@@ -2,6 +2,19 @@
 get_header();
 ?>
 
+<header class="site-header">
+    <div class="banner-section">
+        <div class="header-cover-img" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(<?php echo get_theme_file_uri('/assets/img/header_img/gradpic.jpeg') ?>);">
+            <h1 class="header-text">O-REL</h1>
+            <p class="mx-5 my-4 header-paragraph">
+                "Investing in your 20's"
+            </p>
+            <p class></p>
+            <button class="my-5 header-button">JOIN US</button>
+        <div>
+    </div>
+</header>
+
 <?php //get_template_part('template-parts/main', 'slider'); ?>
 
 <div class="featured-section">

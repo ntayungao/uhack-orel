@@ -68,3 +68,72 @@ html{
     .carousel-background{
     }
 }
+
+/* ------------------- Top Up Button ------------------------ */
+
+.top-up-btn {
+    display: none;
+    position: fixed;
+    bottom: 85px;
+    right: 10px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #cd2027;
+    color: white;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    border-radius: 500px;
+  }
+
+  .top-up-btn:hover {
+    background-color: #038875;
+  }
+
+  @media only screen and (min-width: 960px) and (max-width: 1140px) {
+    .top-up-btn {
+      bottom: 85px;
+      right: 10px;
+      z-index: 99;
+      font-size: 14px;
+      height: 40px;
+      width: 40px;
+      border-radius: 500px;
+    }
+  }
+  
+  @media only screen and (min-width: 720px) and (max-width: 959px) {
+    .top-up-btn {
+      bottom: 85px;
+      right: 10px;
+      z-index: 99;
+      font-size: 14px;
+      height: 40px;
+      width: 40px;
+      border-radius: 500px;
+    }
+  }
+  @media only screen and (min-width: 540px) and (max-width: 719px) {
+    .top-up-btn {
+      bottom: 85px;
+      right: 10px;
+      z-index: 99;
+      font-size: 12px;
+      height: 35px;
+      width: 35px;
+      border-radius: 500px;
+    }
+  }
+  @media only screen and (min-width: 310px) and (max-width: 539px) {
+    .top-up-btn {
+      bottom: 85px;
+      right: 10px;
+      z-index: 99;
+      font-size: 12px;
+      height: 30px;
+      width: 30px;
+      border-radius: 500px;
+    }
+  }
