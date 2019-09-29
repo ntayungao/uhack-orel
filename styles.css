@@ -1,0 +1,74 @@
+
+body {
+    overflow: auto;
+    font-family: 'Lato', sans-serif;
+    color: rgb(80, 89, 98);
+}
+
+
+/* Navigation */
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .7rem;
+    letter-spacing: .15rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand img {
+    height: 4rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+
+/* Start of Enrolled Courses */
+.course-section {
+    margin: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    padding-top: 7.5rem;
+    background-color: antiquewhite;
+}
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 5rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+.heading-underline-2 {
+    width: 20rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+.feature p {
+    font-size: 1.1rem;
+}
+
+
+/* Start of Article Section */
+.article-section {
+    margin: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    padding-top: 5rem;
+}

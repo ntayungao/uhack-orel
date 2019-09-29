@@ -1,0 +1,68 @@
+/* ===== LANDING PAGE ====== */
+    /* NAVBAR */
+    - OREL
+    - The Team
+    - About Us
+
+    - 'Start Learning' or 'Join Us' button 
+        - Popup Signup form 
+            - 'Already a Member?'
+                - Login form
+
+==============================================
+
+/* ===== LOGIN ====== */
+    /* NAVBAR */
+    - Dashboard
+    - Learn Now (Dropdown)
+        - Courses 
+        - Videos
+        - Articles
+    - Forum
+    - Contribute
+
+==============================================
+
+/* ===== Dashboard ===== */
+- Currently enrolled courses
+- Recently watched and saved videos 
+- Articles Read
+- Forum Discussions
+
+==============================================
+
+/* ===== Learn Now -> Courses ===== */
+
+
+==============================================
+
+/* ===== Learn Now -> Videos ===== */
+
+
+==============================================
+
+/* ===== Learn Now -> Articles ===== */
+- Sort by (Date Uploaded, Views, Ratings)
+
+==============================================
+
+/* ===== Forum ===== */
+- Sort by (Date Uploaded)
+
+==============================================
+
+/* ===== Contribute ===== */
+- 
+
+
+
+
+==============================================
+
+Current Problem
+- How to monetize
+- Where to get contents/content creators (aside from open source contributors)
+
+
+
+
